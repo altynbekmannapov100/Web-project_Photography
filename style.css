@@ -1,0 +1,48 @@
+body,
+ul,
+h2 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(./img/backgroundofheader.jpg);
+    height: 744px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    position: absolute;
+    top: 90px;
+    left: 310px;
+    padding: 0;
+}
+
+.nav__item {
+    font-size: 18px;
+    margin: 0px 34px 0px 34px;
+    display: inline-block;
+}
+
+.nav__item-img {
+    padding: 0px 42px 0px 42px;
+    vertical-align: -15px;
+    display: inline-block;
+}
+
+.nav__link {
+    color: #fff;
+}
