@@ -19,7 +19,7 @@ a {
 
 .header {
     background-image: url(./img/backgroundofheader.jpg);
-    height: 744px;
+    height: 745px;
     position: relative;
     background-repeat: no-repeat;
 }
@@ -45,4 +45,84 @@ a {
 
 .nav__link {
     color: #fff;
+}
+
+.nav__link:hover {
+    border-bottom: #16a085 5px solid;
+    font-weight: normal;
+    padding-bottom: 3px;
+}
+
+.active {
+    border-bottom: #16a085 5px solid;
+    padding-bottom: 3px;
+}
+
+.header__text {
+    margin: 0;
+    position: absolute;
+    top: 418px;
+    left: 264px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Rosario;
+}
+
+.strike {
+    position: absolute;
+    top: 530px;
+    left: 530px;
+}
+
+.strike>span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.strike>span:before,
+.strike>span:after {
+    content: '';
+    position: absolute;
+    width: 320px;
+    border-top: 2px solid #fff;
+    top: 50%;
+}
+
+.strike>span::after {
+    left: 100%;
+    margin-left: 40px;
+}
+
+.strike>span::before {
+    margin-right: 40px;
+    right: 100%;
+}
+
+.header__button {
+    position: absolute;
+    top: 600px;
+    left: 545px;
+    height: 57px;
+    color: #fff;
+    width: 190px;
+    background: #16a085;
+    font-size: 16px;
+    font-family: Rosario;
+    border: none;
+    padding: 0;
+}
+
+.button__circle {
+    margin-left: 35px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.header__button:hover,
+.button__circle:hover {
+    background: #fff;
+    color: #16a085;
 }
