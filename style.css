@@ -12,6 +12,17 @@ a {
     text-decoration: none;
 }
 
+.button {
+    height: 57px;
+    color: #fff;
+    width: 190px;
+    background: #16a085;
+    font-size: 16px;
+    font-family: Rosario;
+    border: none;
+    padding: 0;
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -121,8 +132,56 @@ a {
     font-size: 30px;
 }
 
-.header__button:hover,
+.button:hover,
 .button__circle:hover {
     background: #fff;
     color: #16a085;
+}
+
+.section__1 {
+    width: 100%;
+    background-image: url(./img/Rectangle.png);
+    height: 500px;
+    position: relative;
+}
+
+.photo__app {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 205px;
+    margin-top: 45px;
+}
+
+.photo__app-info {
+    width: 445px;
+}
+
+.photo__app-title {
+    color: #16a085;
+}
+
+.photo__app-text {
+    color: #666767;
+    width: 445px;
+    height: 260px;
+    color: #666767;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.photo__app-img {
+    background-image: url(./img/iPhone.png);
+    margin-right: 100px;
+    width: 223px;
+    height: 441px;
+    position: relative;
+}
+
+.copylogo {
+    left: 92px;
+    position: absolute;
+    top: 274px;
 }
