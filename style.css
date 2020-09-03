@@ -23,6 +23,10 @@ a {
     padding: 0;
 }
 
+.btn:focus {
+    outline: none;
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -136,10 +140,6 @@ a {
 .button__circle:hover {
     background: #fff;
     color: #16a085;
-}
-
-.button:focus {
-    outline: none;
 }
 
 .section__1 {
@@ -358,11 +358,6 @@ a {
     color: #000;
 }
 
-.gallery__button_1:focus,
-.gallery__button_2:focus {
-    outline: none;
-}
-
 .section-4 {
     width: 100%;
     height: 600px;
@@ -412,6 +407,61 @@ a {
     background: #fff;
 }
 
-.input__button:focus {
-    outline: none;
+.section-5 {
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/Rectangle.png);
+    position: relative;
+}
+
+.download {
+    position: absolute;
+    height: 100%;
+    width: 830px;
+    left: 225px;
+}
+
+.download__title {
+    position: absolute;
+    top: 78px;
+    left: 295px;
+}
+
+.download__text {
+    position: absolute;
+    top: 123px;
+    font-size: 10px;
+    line-height: 3;
+}
+
+.apple {
+    position: absolute;
+    top: 278px;
+    left: 224px;
+    width: 100px;
+    height: 100px;
+    background: #16a085;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 56px;
+}
+
+.android {
+    position: absolute;
+    top: 278px;
+    left: 490px;
+    width: 100px;
+    height: 100px;
+    background: #16a085;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 56px;
+}
+
+.android:hover,
+.apple:hover {
+    background: #fff;
+    color: #16a085;
 }
