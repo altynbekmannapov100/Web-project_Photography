@@ -362,3 +362,56 @@ a {
 .gallery__button_2:focus {
     outline: none;
 }
+
+.section-4 {
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/backgroundofsection4.jpg);
+    position: relative;
+}
+
+.form {
+    width: 360px;
+    border: none;
+    height: 50px;
+    position: absolute;
+    top: 292px;
+    left: 460px;
+}
+
+.form__text {
+    color: #fff;
+    font-size: 24px;
+    font-family: Rosario;
+    width: 242px;
+    position: absolute;
+    top: 216px;
+    left: 533px;
+}
+
+.input {
+    float: left;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: RosarioBold;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    width: 290px;
+    height: 50px;
+}
+
+.input__button {
+    float: right;
+    width: 50px;
+    height: 52px;
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fff;
+}
+
+.input__button:focus {
+    outline: none;
+}
