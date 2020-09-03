@@ -405,6 +405,20 @@ a {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     background: #fff;
+    color: #16a085;
+}
+
+.button__circle-input {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.button__circle-input:hover,
+.input__button:hover {
+    background: #fff;
+    color: #16a085;
 }
 
 .section-5 {
@@ -464,4 +478,34 @@ a {
 .apple:hover {
     background: #fff;
     color: #16a085;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.footer__logo {
+    position: absolute;
+    left: 205px;
+    top: 29px;
+}
+
+.footer__text1 {
+    position: absolute;
+    left: 300px;
+    top: 48px;
+    margin: 0;
+    font-size: 12px;
+    font-family: Raleway;
+}
+
+.footer__text2 {
+    position: absolute;
+    right: 300px;
+    top: 48px;
+    margin: 0;
+    font-size: 12px;
+    font-family: Raleway;
 }
