@@ -1,511 +1,527 @@
-body,
-ul,
-h2 {
-    margin: 0;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.button {
-    height: 57px;
-    color: #fff;
-    width: 190px;
-    background: #16a085;
-    font-size: 16px;
-    font-family: Rosario;
-    border: none;
-    padding: 0;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.container {
-    width: 1280px;
-    margin: 0 auto;
-}
-
-.header {
-    background-image: url(./img/backgroundofheader.jpg);
-    height: 745px;
-    position: relative;
-    background-repeat: no-repeat;
-}
-
-.nav {
-    position: absolute;
-    top: 90px;
-    left: 310px;
-    padding: 0;
-}
-
-.nav__item {
-    font-size: 18px;
-    margin: 0px 34px 0px 34px;
-    display: inline-block;
-}
-
-.nav__item-img {
-    padding: 0px 42px 0px 42px;
-    vertical-align: -15px;
-    display: inline-block;
-}
-
-.nav__link {
-    color: #fff;
-}
-
-.nav__link:hover {
-    border-bottom: #16a085 5px solid;
-    font-weight: normal;
-    padding-bottom: 3px;
-}
-
-.active {
-    border-bottom: #16a085 5px solid;
-    padding-bottom: 3px;
-}
-
-.header__text {
-    margin: 0;
-    position: absolute;
-    top: 418px;
-    left: 264px;
-    font-size: 36px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: Rosario;
-}
-
-.strike {
-    position: absolute;
-    top: 530px;
-    left: 530px;
-}
-
-.strike>span {
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.strike>span:before,
-.strike>span:after {
-    content: '';
-    position: absolute;
-    width: 320px;
-    border-top: 2px solid #fff;
-    top: 50%;
-}
-
-.strike>span::after {
-    left: 100%;
-    margin-left: 40px;
-}
-
-.strike>span::before {
-    margin-right: 40px;
-    right: 100%;
-}
-
-.header__button {
-    position: absolute;
-    top: 600px;
-    left: 545px;
-    height: 57px;
-    color: #fff;
-    width: 190px;
-    background: #16a085;
-    font-size: 16px;
-    font-family: Rosario;
-    border: none;
-    padding: 0;
-}
-
-.button__circle {
-    margin-left: 35px;
-    vertical-align: middle;
-    font-size: 30px;
-}
-
-.button:hover,
-.button__circle:hover {
-    background: #fff;
-    color: #16a085;
-}
-
-.section__1 {
-    width: 100%;
-    background-image: url(./img/Rectangle.png);
-    height: 500px;
-    position: relative;
-}
-
-.photo__app {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    left: 205px;
-    margin-top: 45px;
-}
-
-.photo__app-info {
-    width: 445px;
-}
-
-.photo__app-title {
-    color: #16a085;
-}
-
-.photo__app-text {
-    color: #666767;
-    width: 445px;
-    height: 260px;
-    color: #666767;
-    line-height: 1.5;
-    font-size: 18px;
-    margin: 25px 0;
-}
-
-.photo__app-img {
-    background-image: url(./img/iPhone.png);
-    margin-right: 100px;
-    width: 223px;
-    height: 441px;
-    position: relative;
-}
-
-.copylogo {
-    left: 92px;
-    position: absolute;
-    top: 274px;
-}
-
-.section-2 {
-    width: 100%;
-    height: 550px;
-    background: #fff;
-    position: relative;
-}
-
-.overview {
-    position: absolute;
-    left: 205px;
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    top: 92px;
-}
-
-.overview__img {
-    background-image: url(./img/Pic3.png);
-    height: 521px;
-    width: 250px;
-}
-
-.overview__info {
-    position: relative;
-    width: 405px;
-}
-
-.overview__title {
-    color: #16a085;
-}
-
-.overview__text {
-    height: 160px;
-    width: 405px;
-    line-height: 1.5;
-    margin: 0;
-    font-size: 18px;
-    position: absolute;
-    top: 50px;
-    color: #666767;
-}
-
-.button_overview {
-    position: absolute;
-    top: 263px;
-}
-
-.section-3 {
-    background-image: url(./img/Rectangle.png);
-    width: 100%;
-    height: 500px;
-    position: relative;
-    z-index: 2;
-}
-
-.gallery {
-    position: absolute;
-    left: 205px;
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-    top: 68px;
-}
-
-.gallery__logo {
-    width: 235px;
-    position: relative;
-}
-
-.gallery__logo-img {
-    position: absolute;
-    top: 72px;
-    left: 95px;
-}
-
-.gallery__title {
-    position: absolute;
-    top: 138px;
-    left: 65px;
-    color: #16a085;
-    font: bold italic 18px Rosario;
-    ;
-}
-
-.gallery__text {
-    position: absolute;
-    top: 210px;
-    font-size: 10px;
-    margin: 0;
-    text-align: end;
-    width: 100%;
-}
-
-.gallery__div {
-    display: flex;
-    flex-wrap: wrap;
-    width: 510px;
-    height: 345px;
-}
-
-.gallery__images {
-    position: relative;
-}
-
-.comment {
-    position: absolute;
-    top: 138px;
-    font-size: 24px;
-    left: 20px;
-    color: #d0d3d5;
-}
-
-.heart {
-    position: absolute;
-    top: 138px;
-    font-size: 24px;
-    left: 65px;
-    color: #d0d3d5;
-}
-
-.heart:hover,
-.comment:hover {
-    color: #fff;
-    text-shadow: #000 5px 5px 5px;
-}
-
-.gallery__image-left {
-    margin: 0px 10px 5px 0px;
-    width: 255px;
-    height: 170px;
-}
-
-.gallery__image-right {
-    margin-left: 10px;
-    width: 235px;
-    height: 170px;
-}
-
-.gallery__button_1 {
-    position: absolute;
-    background-color: none;
-    color: #16a085;
-    background: bottom;
-    border: none;
-    top: 380px;
-    right: 315px;
-    padding: 0;
-}
-
-.gallery__button_2 {
-    position: absolute;
-    background-color: none;
-    color: #16a085;
-    background: bottom;
-    border: none;
-    top: 380px;
-    right: 400px;
-    padding: 0;
-}
-
-.button__circle_1 {
-    font-size: 30px;
-}
-
-.button__circle_1:hover {
-    color: #000;
-}
-
-.section-4 {
-    width: 100%;
-    height: 600px;
-    background-image: url(./img/backgroundofsection4.jpg);
-    position: relative;
-}
-
-.form {
-    width: 360px;
-    border: none;
-    height: 50px;
-    position: absolute;
-    top: 292px;
-    left: 460px;
-}
-
-.form__text {
-    color: #fff;
-    font-size: 24px;
-    font-family: Rosario;
-    width: 242px;
-    position: absolute;
-    top: 216px;
-    left: 533px;
-}
-
-.input {
-    float: left;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-family: RosarioBold;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding-left: 20px;
-    width: 290px;
-    height: 50px;
-}
-
-.input__button {
-    float: right;
-    width: 50px;
-    height: 52px;
-    border: none;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    background: #fff;
-    color: #16a085;
-}
-
-.button__circle-input {
-    font-size: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-.button__circle-input:hover,
-.input__button:hover {
-    background: #fff;
-    color: #16a085;
-}
-
-.section-5 {
-    width: 100%;
-    height: 400px;
-    background-image: url(./img/Rectangle.png);
-    position: relative;
-}
-
-.download {
-    position: absolute;
-    height: 100%;
-    width: 830px;
-    left: 225px;
-}
-
-.download__title {
-    position: absolute;
-    top: 78px;
-    left: 295px;
-}
-
-.download__text {
-    position: absolute;
-    top: 123px;
-    font-size: 10px;
-    line-height: 3;
-}
-
-.apple {
-    position: absolute;
-    top: 278px;
-    left: 224px;
-    width: 100px;
-    height: 100px;
-    background: #16a085;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    font-size: 56px;
-}
-
-.android {
-    position: absolute;
-    top: 278px;
-    left: 490px;
-    width: 100px;
-    height: 100px;
-    background: #16a085;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    font-size: 56px;
-}
-
-.android:hover,
-.apple:hover {
-    background: #fff;
-    color: #16a085;
-}
-
-.footer {
-    width: 100%;
-    height: 100px;
-    position: relative;
-}
-
-.footer__logo {
-    position: absolute;
-    left: 205px;
-    top: 29px;
-}
-
-.footer__text1 {
-    position: absolute;
-    left: 300px;
-    top: 48px;
-    margin: 0;
-    font-size: 12px;
-    font-family: Raleway;
-}
-
-.footer__text2 {
-    position: absolute;
-    right: 300px;
-    top: 48px;
-    margin: 0;
-    font-size: 12px;
-    font-family: Raleway;
-}
+ /* ----------------------------------Basic styles-------------------------------- */
+ 
+ body,
+ ul,
+ h2 {
+     margin: 0;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .button {
+     height: 57px;
+     color: #fff;
+     width: 190px;
+     background: #16a085;
+     font-size: 16px;
+     font-family: Rosario;
+     border: none;
+     padding: 0;
+ }
+ 
+ .btn:focus {
+     outline: none;
+ }
+ 
+ .container {
+     width: 1280px;
+     margin: 0 auto;
+ }
+ /* ----------------------------------Header-------------------------------- */
+ 
+ .header {
+     background-image: url(./img/backgroundofheader.jpg);
+     height: 745px;
+     position: relative;
+     background-repeat: no-repeat;
+ }
+ 
+ .nav {
+     position: absolute;
+     top: 90px;
+     left: 310px;
+     padding: 0;
+ }
+ 
+ .nav__item {
+     font-size: 18px;
+     margin: 0px 34px 0px 34px;
+     display: inline-block;
+ }
+ 
+ .nav__item-img {
+     padding: 0px 42px 0px 42px;
+     vertical-align: -15px;
+     display: inline-block;
+ }
+ 
+ .nav__link {
+     color: #fff;
+ }
+ 
+ .nav__link:hover {
+     border-bottom: #16a085 5px solid;
+     font-weight: normal;
+     padding-bottom: 3px;
+ }
+ 
+ .active {
+     border-bottom: #16a085 5px solid;
+     padding-bottom: 3px;
+ }
+ 
+ .header__text {
+     margin: 0;
+     position: absolute;
+     top: 418px;
+     left: 264px;
+     font-size: 36px;
+     color: #fff;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-family: Rosario;
+ }
+ 
+ .strike {
+     position: absolute;
+     top: 530px;
+     left: 530px;
+ }
+ 
+ .strike>span {
+     color: #fff;
+     font-weight: bold;
+     font-size: 16px;
+ }
+ 
+ .strike>span:before,
+ .strike>span:after {
+     content: '';
+     position: absolute;
+     width: 320px;
+     border-top: 2px solid #fff;
+     top: 50%;
+ }
+ 
+ .strike>span::after {
+     left: 100%;
+     margin-left: 40px;
+ }
+ 
+ .strike>span::before {
+     margin-right: 40px;
+     right: 100%;
+ }
+ 
+ .header__button {
+     position: absolute;
+     top: 600px;
+     left: 545px;
+     height: 57px;
+     color: #fff;
+     width: 190px;
+     background: #16a085;
+     font-size: 16px;
+     font-family: Rosario;
+     border: none;
+     padding: 0;
+ }
+ 
+ .button__circle {
+     margin-left: 35px;
+     vertical-align: middle;
+     font-size: 30px;
+ }
+ 
+ .button:hover,
+ .button__circle:hover {
+     background: #fff;
+     color: #16a085;
+ }
+ /* ---------------end-------------------Header--------------end------------------ */
+ /* ----------------------------------Section Photoapp-------------------------------- */
+ 
+ .section__1 {
+     width: 100%;
+     background-image: url(./img/Rectangle.png);
+     height: 500px;
+     position: relative;
+ }
+ 
+ .photo__app {
+     width: 1000px;
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     left: 205px;
+     margin-top: 45px;
+ }
+ 
+ .photo__app-info {
+     width: 445px;
+ }
+ 
+ .photo__app-title {
+     color: #16a085;
+ }
+ 
+ .photo__app-text {
+     color: #666767;
+     width: 445px;
+     height: 260px;
+     color: #666767;
+     line-height: 1.5;
+     font-size: 18px;
+     margin: 25px 0;
+ }
+ 
+ .photo__app-img {
+     background-image: url(./img/iPhone.png);
+     margin-right: 100px;
+     width: 223px;
+     height: 441px;
+     position: relative;
+ }
+ 
+ .copylogo {
+     left: 92px;
+     position: absolute;
+     top: 274px;
+ }
+ /* -----------------end-----------------Section Photoapp----------------end---------------- */
+ /* ----------------------------------Section Overview-------------------------------- */
+ 
+ .section-2 {
+     width: 100%;
+     height: 550px;
+     background: #fff;
+     position: relative;
+ }
+ 
+ .overview {
+     position: absolute;
+     left: 205px;
+     width: 1000px;
+     display: flex;
+     justify-content: space-between;
+     top: 92px;
+ }
+ 
+ .overview__img {
+     background-image: url(./img/Pic3.png);
+     height: 521px;
+     width: 250px;
+ }
+ 
+ .overview__info {
+     position: relative;
+     width: 405px;
+ }
+ 
+ .overview__title {
+     color: #16a085;
+ }
+ 
+ .overview__text {
+     height: 160px;
+     width: 405px;
+     line-height: 1.5;
+     margin: 0;
+     font-size: 18px;
+     position: absolute;
+     top: 50px;
+     color: #666767;
+ }
+ 
+ .button_overview {
+     position: absolute;
+     top: 263px;
+ }
+ /* -----------------end-----------------Section Overview-------------end------------------- */
+ /* ----------------------------------Section Gallery-------------------------------- */
+ 
+ .section-3 {
+     background-image: url(./img/Rectangle.png);
+     width: 100%;
+     height: 500px;
+     position: relative;
+     z-index: 2;
+ }
+ 
+ .gallery {
+     position: absolute;
+     left: 205px;
+     display: flex;
+     justify-content: space-between;
+     width: 1000px;
+     top: 68px;
+ }
+ 
+ .gallery__logo {
+     width: 235px;
+     position: relative;
+ }
+ 
+ .gallery__logo-img {
+     position: absolute;
+     top: 72px;
+     left: 95px;
+ }
+ 
+ .gallery__title {
+     position: absolute;
+     top: 138px;
+     left: 65px;
+     color: #16a085;
+     font: bold italic 18px Rosario;
+     ;
+ }
+ 
+ .gallery__text {
+     position: absolute;
+     top: 210px;
+     font-size: 10px;
+     margin: 0;
+     text-align: end;
+     width: 100%;
+ }
+ 
+ .gallery__div {
+     display: flex;
+     flex-wrap: wrap;
+     width: 510px;
+     height: 345px;
+ }
+ 
+ .gallery__images {
+     position: relative;
+ }
+ 
+ .comment {
+     position: absolute;
+     top: 138px;
+     font-size: 24px;
+     left: 20px;
+     color: #d0d3d5;
+ }
+ 
+ .heart {
+     position: absolute;
+     top: 138px;
+     font-size: 24px;
+     left: 65px;
+     color: #d0d3d5;
+ }
+ 
+ .heart:hover,
+ .comment:hover {
+     color: #fff;
+     text-shadow: #000 5px 5px 5px;
+ }
+ 
+ .gallery__image-left {
+     margin: 0px 10px 5px 0px;
+     width: 255px;
+     height: 170px;
+ }
+ 
+ .gallery__image-right {
+     margin-left: 10px;
+     width: 235px;
+     height: 170px;
+ }
+ 
+ .gallery__button_1 {
+     position: absolute;
+     background-color: none;
+     color: #16a085;
+     background: bottom;
+     border: none;
+     top: 380px;
+     right: 315px;
+     padding: 0;
+ }
+ 
+ .gallery__button_2 {
+     position: absolute;
+     background-color: none;
+     color: #16a085;
+     background: bottom;
+     border: none;
+     top: 380px;
+     right: 400px;
+     padding: 0;
+ }
+ 
+ .button__circle_1 {
+     font-size: 30px;
+ }
+ 
+ .button__circle_1:hover {
+     color: #000;
+ }
+ /* ---------------end-------------------Section Gallery--------------end------------------ */
+ /* ----------------------------------Section Form-------------------------------- */
+ 
+ .section-4 {
+     width: 100%;
+     height: 600px;
+     background-image: url(./img/backgroundofsection4.jpg);
+     position: relative;
+ }
+ 
+ .form {
+     width: 360px;
+     border: none;
+     height: 50px;
+     position: absolute;
+     top: 292px;
+     left: 460px;
+ }
+ 
+ .form__text {
+     color: #fff;
+     font-size: 24px;
+     font-family: Rosario;
+     width: 242px;
+     position: absolute;
+     top: 216px;
+     left: 533px;
+ }
+ 
+ .input {
+     float: left;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     font-family: RosarioBold;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     padding-left: 20px;
+     width: 290px;
+     height: 50px;
+ }
+ 
+ .input__button {
+     float: right;
+     width: 50px;
+     height: 52px;
+     border: none;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     background: #fff;
+     color: #16a085;
+ }
+ 
+ .button__circle-input {
+     font-size: 30px;
+     position: absolute;
+     top: 10px;
+     right: 10px;
+ }
+ 
+ .button__circle-input:hover,
+ .input__button:hover {
+     background: #fff;
+     color: #16a085;
+ }
+ /* -----------------end-----------------Section Form-----------------end--------------- */
+ /* ----------------------------------Section Download-------------------------------- */
+ 
+ .section-5 {
+     width: 100%;
+     height: 400px;
+     background-image: url(./img/Rectangle.png);
+     position: relative;
+ }
+ 
+ .download {
+     position: absolute;
+     height: 100%;
+     width: 830px;
+     left: 225px;
+ }
+ 
+ .download__title {
+     position: absolute;
+     top: 78px;
+     left: 295px;
+ }
+ 
+ .download__text {
+     position: absolute;
+     top: 123px;
+     font-size: 10px;
+     line-height: 3;
+ }
+ 
+ .apple {
+     position: absolute;
+     top: 278px;
+     left: 224px;
+     width: 100px;
+     height: 100px;
+     background: #16a085;
+     color: #fff;
+     border: none;
+     border-radius: 50%;
+     font-size: 56px;
+ }
+ 
+ .android {
+     position: absolute;
+     top: 278px;
+     left: 490px;
+     width: 100px;
+     height: 100px;
+     background: #16a085;
+     color: #fff;
+     border: none;
+     border-radius: 50%;
+     font-size: 56px;
+ }
+ 
+ .android:hover,
+ .apple:hover {
+     background: #fff;
+     color: #16a085;
+ }
+ /* ---------------end-------------------Section Download--------------end------------------ */
+ /* ----------------------------------Footer-------------------------------- */
+ 
+ .footer {
+     width: 100%;
+     height: 100px;
+     position: relative;
+ }
+ 
+ .footer__logo {
+     position: absolute;
+     left: 205px;
+     top: 29px;
+ }
+ 
+ .footer__text1 {
+     position: absolute;
+     left: 300px;
+     top: 48px;
+     margin: 0;
+     font-size: 12px;
+     font-family: Raleway;
+ }
+ 
+ .footer__text2 {
+     position: absolute;
+     right: 300px;
+     top: 48px;
+     margin: 0;
+     font-size: 12px;
+     font-family: Raleway;
+ }
+ /* ----------------end------------------Footer-------------end------------------- */
